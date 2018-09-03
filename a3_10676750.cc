@@ -6,7 +6,7 @@
  int main (int argc,char**argv)
  {
   double score;
-   cout << "Please enter your score: ";
+   cout << "Please enter your score for grading: ";
    cin >> score;
    cout << setprecision(2)<< fixed;
    if (score > 100)
